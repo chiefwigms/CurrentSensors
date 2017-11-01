@@ -29,16 +29,12 @@ class CurrentSensors(SensorPassive):
 
     ## Active Sensor:
     # def execute(self):
-    #     print 'execute!'
     #     while self.is_running():
-    #         print 'execute running!'
     #         ser.flushInput();
     #         rdata = ser.readline().strip('\t\n\r')
     #         jdata = json.loads(rdata)
     #         val = '240V: {0}A, 120V: {1}A'.format(jdata['CurrentSensors'][0]['240V'], jdata['CurrentSensors'][0]['120V'])
-    #         print 'current sensor running!'
-    #         print val
-    #         self.data_received()
+    #         self.data_received(val)
     #         self.sleep(1)
 
     # @classmethod
